@@ -1,0 +1,76 @@
+/* Base styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 0;
+  }
+  
+  /*  */
+  .news-container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  /* India General Election Results 2024 Updates: India General Election Results 2024 LIVE Updates: In stark contrast to what exit polls have predicted, which have aniticipated close to 400 seats for the Bharatiya Janata Party (BJP)-led NDA, the ruling alliance seems struggling to get across the 300 seats mark.
+ . Election Result 2024: Wrap Up!
+What a day it has been! When the day started, everyone was wondering whether the BJP-led NDA would cross the 400-mark or not. Far from that, the ruling alliance has not even crossed the 300-mark. However, the NDA has crossed the crucial majority mark of 272 and is most likely to form the government. BJP's two crucial allies, the JDU and TDP, have reiterated their allegiance. Modi and all top leaders have publicly reiterated that they are forming the government. But the INDI alliance is still hopeful and is sending feelers to the TDP and JDU. Both the NDA and INDI alliances are set to hold meetings tomorrow to firm up their plans. Will there be a twist in the tale? Log on tomorrow to check all the live updates and special stories. Good night.
+. Election Result 2024 Live: SP chief Akhilesh Yadav, four of his family win LS seats in UP
+Election Result 2024 Live: Akhilesh Yadav defeated his rival Subrat Pathak of the BJP by a margin of 1,70,922 votes. His wife Dimple Yadav won the Mainpuri Lok Sabha seat while Dharmendra Yadav secured a victory in Azamgarh by comfortable margins.Akshay Yadav and Aditya Yadav also won from Firozabad and Badaun.
+. Election Result 2024 Live: BJP in Himachal hits hat-trick, wins all four Lok Sabha seats
+Election Result 2024 Live: BJP candidate from Kangra, Rajeev Bhardwaj, defeated his nearest Congress rival and four-time MP Anand Sharma by a margin of 2,51,895 votes. Anurag Thakur won BJP’s bastion Hamirpur with a margin of 182,357 votes. In the Mandi Parliamentary seat, actress and BJP candidate Kangna Ranaut got 537,022 votes, while Congress candidate Vikramaditya Singh polled 462,267 votes. In Shimla (reserved), Suresh Kashyap of the BJP defeated his nearest rival Vinod Sultanpuri of the Congress by a margin of 91,451 votes.
+. Election Result 2024 Live: BJP's Yogender Chandoliya wins Northwest Delhi seat by more than 2.90 lakh votes, defeats Congress candidate Udit Raj
+. Election Result 2024 Live: 13 Union ministers lose polls
+BJP heavyweights Smriti Irani, Arjun Munda, Ajay Mishra Teni and Kailash Chaudhary were among the 13 Union ministers who tasted defeat in the 2024 Lok Sabha elections, as stunning losses in three Hindi heartland states forced the BJP to rely on allies to form the government. Irani, who had clinched the Amethi Lok Sabha seat after defeating Rahul Gandhi in 2019, lost to Congress candidate and a close aide of the Gandhi family Kishori Lal Sharma by 1,67,196 lakh votes.
+. Election Result 2024 Live: Latest results
+
+    JMM's Nalin Soren defeats BJP's Sita Soren in Jharkhand's Dumka LS seat by 22,527 votes
+    Union minister Sarbananda Sonowal wins Dibrugarh Lok Sabha seat in Assam by 2.79 lakh votes
+    Union Minister and BJP MP Annapurna Devi retains Koderma seat, defeats CPI-ML''s VK Singh by 3.77 lakh votes
+    Congress's Gaurav Gogoi wrests Jorhat seat in Assam from BJP MP Topon Kumar Gogoi by 1,44,393 votes.*/
+  .article {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,.2);
+  }
+  
+  /* Article title */
+  .article-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Article description */
+  .article-description {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  /* Read more link */
+  .read-more {
+    display: inline-block;
+    text-decoration: none;
+    color: #007bff;
+    background: #f4f4f4;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background .3s;
+  }
+  
+  .read-more:hover {
+    background: #ddd;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .news-container {
+      width: 95%;
+    }
+  }
+  
